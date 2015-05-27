@@ -1,4 +1,4 @@
-package com.mygdx.game;
+package com.mygdx.game.examples;
 
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Batch;
@@ -7,11 +7,11 @@ import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 
 /**
- * Created by turupawn on 4/29/15.
+ * Created by turupawn on 5/27/15.
  */
-public class MiActor extends Image
+public class ActorExample extends Image
 {
-    MiActor()
+    public ActorExample()
     {
         super(new Texture("badlogic.jpg"));
 
