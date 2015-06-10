@@ -2,16 +2,15 @@ package com.mygdx.game.examples;
 
 import com.badlogic.gdx.Gdx;
 import com.mygdx.game.ui.Button;
-import com.mygdx.game.ui.TextInput;
 
 /**
- * Created by turupawn on 5/27/15.
+ * Created by turupawn on 6/10/15.
  */
-public class InputButtonExample extends Button
+public class UserButton extends Button
 {
-    public InputButtonExample()
+    public UserButton()
     {
-        super("button_pressed.png","button_unpressed.png",250,10);
+        super("button_pressed.png","button_unpressed.png",250,150);
     }
 
     @Override
